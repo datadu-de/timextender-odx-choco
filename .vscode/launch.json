@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "choco pack",
             "type": "PowerShell",
@@ -17,6 +18,12 @@
             "request": "launch",
             "script": "choco push --source https://push.chocolatey.org/ ",
             "cwd": "${cwd}"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "pack + push",
+            "configurations": ["choco pack", "choco push"]
         }
     ]
 }
