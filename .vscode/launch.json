@@ -11,5 +11,12 @@
             "script": "choco pack",
             "cwd": "${cwd}"
         }
+        ,{
+            "name": "choco push",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "choco push --source https://push.chocolatey.org/ ",
+            "cwd": "${cwd}"
+        }
     ]
 }
