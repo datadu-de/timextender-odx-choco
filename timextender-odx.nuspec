@@ -46,7 +46,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     </summary>
     <description>TimeXtender automates, orchestrates and documents data solutions. To properly setup your environment for TimeXtender, it’s important to first understand how the platform works. The platform can be understood as an abstraction layer where data is ingested and business logic is defined, independently of the underlying infrastructure. This makes the business logic resilient, and facilitates a "single version of truth", while achieving fluidity in the underlying components. In other words, infrastructure changes can be made quickly (which is often times necessary in an ever-changing technical landscape) without lengthy migrations, rebuilding business logic or compromising the "single version of truth". Learn even more and get up to speed quickly with Training.
     </description>
-    <releaseNotes>https://support.timextender.com/product-updates/timextender-6429-1-1532</releaseNotes>
+    <releaseNotes>https://support.timextender.com/product-updates</releaseNotes>
     <!-- =============================== -->
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
     <!--<dependencies>
